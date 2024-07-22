@@ -11,4 +11,3 @@ document.getElementById('loginForm').addEventListener('submit',function(event){
         alert('đăng nhập thành công');
     }
 });
-console.log("bcad");
