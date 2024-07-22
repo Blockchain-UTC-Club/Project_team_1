@@ -11,19 +11,20 @@
     <!-- <a href="index2.html"><button>hello</button></a> -->
      <div id="wrapper">
         
-        <form action="" class="form-login">
+        <form id="loginForm" action="" class="form-login">
             <h1 class = "login">Login</h1>
-            <form action="" class="form-group">
+            <div class="form-group">
                 <div class = "form-input">
                     <i class="fas fa-user"></i>
-                    <input type="text" class ="form-dangnhap" placeholder="Tên đăng nhập">
+                    <input id="username" type="text" class ="form-dangnhap" placeholder="Tên đăng nhập">
                 </div>
                 <div class = "form-input">
                     <i class="fas fa-unlock"></i>
-                    <input type="password" class="form-matkhau" placeholder="Mật khẩu">
+                    <input id="password" type="password" class="form-matkhau" placeholder="Mật khẩu">
                 </div>
-            <input type="submit" class="form-submit" value="Submit">
-            </form>
+            <input  type="submit" class="form-submit" value="Submit">
+            </div>
+        </form>
      </div>
      <script src="/javascript/javascript.js"></script>
 </body>
